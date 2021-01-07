@@ -233,7 +233,9 @@ def _run(handle_data,
     if output == '-':
         click.echo(str(perf))
     elif output != os.devnull:  # make the zipline magic not write any data
-        perf.to_pickle(output)
+        # perf.to_pickle(output)
+        log.warn('jj==> writed to csv file ' + output)
+        perf.to_csv(output, index=False)
 
     return perf
 

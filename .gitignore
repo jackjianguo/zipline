@@ -6,6 +6,9 @@ tmp/**/*
 tmp/*
 *.swp
 *~
+*.pickle
+*out*.csv
+*test*.csv
 #mac autosaving file
 .DS_Store
 *.py[co]

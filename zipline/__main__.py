@@ -48,7 +48,7 @@ except NameError:
 )
 @click.pass_context
 def main(ctx, extension, strict_extensions, default_extension, x):
-    """Top level zipline entry point.
+    """Top level zipline entry point. build 2020-01-06 WSL Ubunut 20.04 LST. jj
     """
     # install a logbook handler before performing any other operations
     logbook.StderrHandler().push_application()

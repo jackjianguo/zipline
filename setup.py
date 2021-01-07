@@ -263,7 +263,7 @@ if 'sdist' in sys.argv:
 
 
 setup(
-    name='zipline',
+    name='zipline-jj',
     url="https://zipline.io",
     version=versioneer.get_version(),
     cmdclass=LazyBuildExtCommandClass(versioneer.get_cmdclass()),
