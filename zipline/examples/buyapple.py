@@ -17,6 +17,8 @@
 from zipline.api import order, record, symbol
 from zipline.finance import commission, slippage
 
+# zipline run -f zipline/examples/buyapple.py \
+# --start 2012-1-3 --end 2012-1-11 -o buyapple_out.csv
 
 def initialize(context):
     context.asset = symbol('AAPL')
